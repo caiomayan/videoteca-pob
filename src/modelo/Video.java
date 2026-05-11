@@ -14,7 +14,8 @@ public class Video {
     private String data = "Desconhecido";
     private String linksite = "Desconhecido";
     private int classificacao;
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.MERGE})
+
     private List<Genero> listaGeneros = new ArrayList<>(); // Um vídeo pode ter vários gêneros N:N
 
     // Construtor

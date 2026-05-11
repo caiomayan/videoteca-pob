@@ -11,7 +11,7 @@ public class Genero {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nome;
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(mappedBy = "listaGeneros", cascade = {CascadeType.PERSIST, CascadeType.MERGE})    
     private List<Video> listaVideos = new ArrayList<>(); // Um gênero pode ter vários vídeos N:N
 
     // Construtor

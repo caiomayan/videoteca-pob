@@ -1,884 +1,391 @@
-2026-04-16 01:33:43 [main] WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        p1_0.id,
-        p1_0.DTYPE,
-        p1_0.dtnascimento,
-        p1_0.nome,
-        p1_0.nota 
-    from
-        Pessoa p1_0
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [1]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [1]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [6]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [6]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [7]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [7]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [8]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [8]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [9]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [9]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [10]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [10]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [11]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [11]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [12]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [12]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [13]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [13]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [14]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [14]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [15]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [15]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [16]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [16]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [17]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [17]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [18]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [18]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [19]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [19]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [20]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [20]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [21]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [21]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [22]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [22]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [23]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [23]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [24]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [24]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [25]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [25]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [26]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [26]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [27]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [27]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [28]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [28]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [29]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [29]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [30]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [30]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [31]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [31]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [32]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [32]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [33]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [33]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [34]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [34]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [35]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [35]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [36]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [36]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [37]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [37]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [38]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [38]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [39]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [39]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [40]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [40]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [41]
-2026-04-16 01:33:47 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:47 [main] TRACE bind - binding parameter (1:INTEGER) <- [41]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [42]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [42]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [43]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [43]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [44]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [44]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        t1_0.pessoa_id,
-        t1_0.id,
-        t1_0.numero 
-    from
-        Telefone t1_0 
-    where
-        t1_0.pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [45]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        a1_0.Pessoa_id,
-        a1_0.apelidos 
-    from
-        Pessoa_apelidos a1_0 
-    where
-        a1_0.Pessoa_id=?
-2026-04-16 01:33:48 [main] TRACE bind - binding parameter (1:INTEGER) <- [45]
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        a1_0.id,
-        a1_0.dtnascimento,
-        a1_0.nome,
-        a1_0.nota 
-    from
-        Pessoa a1_0 
-    where
-        a1_0.DTYPE='Aluno'
-2026-04-16 01:33:48 [main] DEBUG SQL - 
-    select
-        t1_0.id,
-        t1_0.numero,
-        t1_0.pessoa_id 
-    from
-        Telefone t1_0 
-    order by
-        t1_0.id
+2026-05-11 09:30:52 [main] WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-05-11 09:31:03 [main] DEBUG SQL - 
+    create table Genero (
+        id integer generated by default as identity,
+        nome varchar(255),
+        primary key (id)
+    )
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    create table Video (
+        id integer generated by default as identity,
+        classificacao integer not null,
+        data varchar(255),
+        linksite varchar(255),
+        titulo varchar(255),
+        primary key (id)
+    )
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    create table Video_Genero (
+        listaVideos_id integer not null,
+        listaGeneros_id integer not null
+    )
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    alter table if exists Video_Genero 
+       add constraint FKs29522se7p2wd977r1xqnx8li 
+       foreign key (listaGeneros_id) 
+       references Genero
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    alter table if exists Video_Genero 
+       add constraint FKgcf3j7vjvfirio7ak8m1rnsjw 
+       foreign key (listaVideos_id) 
+       references Video
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-03-23]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=W5iRrg8NpEg]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [JN: Governador do Rio de Janeiro, Cláudio Castro, do PL, renuncia ao cargo]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Jornalismo]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-03-26]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=MXFDz0uOSxM]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [BRASIL 1 X 2 FRANÇA | MELHORES MOMENTOS | AMISTOSO INTERNACIONAL | ge tv]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Futebol]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2025-11-03]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=Yy6fByUmPuE]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Coca-Cola | Holidays Are Coming]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Publicidade]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2023-09-28]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=INAt-aIZ28M]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Dicas de como iniciar e aprender a jogar o CS2 (Counter Strike 2)]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Games]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Ação]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2023-02-24]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=SS6hLG4smf0]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Especial: Ucrania - Arquivos de Guerra]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Documentário]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-03-26]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=BdTVDYUrCNM]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [ALMA DE BRASILEIRO - Paul Cabannes (stand up - show completo)]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Comédia]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2025-10-08]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=3D_vS0XlC1w]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Entenda o conflito entre IRÃ e ESTADOS UNIDOS de uma FORMA SIMPLES]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-03-23]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=m5iNeGIkTKo]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [SUSTOS DE MOTO (EP. 249)]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-04-01]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=exemplo1]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Bastidores da Copa: preparação e estratégia]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-02-18]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=exemplo2]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Análise de lançamento: RPG de mundo aberto]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2026-01-12]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=exemplo3]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Reportagem especial: mobilidade urbana no Brasil]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [2025-12-05]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [https://www.youtube.com/watch?v=exemplo4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Sketch: reunião de condomínio]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video
+        (classificacao, data, linksite, titulo) 
+    values
+        (?, ?, ?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [0]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:VARCHAR) <- [Desconhecido]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (3:VARCHAR) <- [Desconhecido]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (4:VARCHAR) <- [Desconhecido]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Genero
+        (nome) 
+    values
+        (?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Tutorial]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [1]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [1]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [2]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [3]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [6]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [6]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [7]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [7]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [6]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [8]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [9]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [2]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [9]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [6]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [10]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [4]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [10]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [5]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [11]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [1]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [11]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [6]
+2026-05-11 09:31:04 [main] DEBUG SQL - 
+    insert 
+    into
+        Video_Genero
+        (listaVideos_id, listaGeneros_id) 
+    values
+        (?, ?)
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (1:INTEGER) <- [12]
+2026-05-11 09:31:04 [main] TRACE bind - binding parameter (2:INTEGER) <- [7]
