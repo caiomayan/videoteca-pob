@@ -118,16 +118,14 @@ public class Cadastrar {
 	
 	        // commit de todas as inserções
 			manager.getTransaction().commit();
-			
-	
-	    } catch(Exception e){
-			manager.getTransaction().rollback();
+
+			System.out.println("\nTérmino do cadastro!");
+
+	    } catch(Exception e) {
 			System.out.println(e.getMessage());
-	    }
-    	
-        // Desconectando do banco
-        Util.desconectar();
-        System.out.println("\nTérmino do cadastro!");
+	    } finally {
+			Util.desconectar();
+		}
     }
 
     public static void main(String[] args) {
