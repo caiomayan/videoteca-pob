@@ -2,16 +2,18 @@ package modelo;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "video20242370036")
 public class Video {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String titulo;
-    private String data = "Desconhecido";
+    private LocalDate data;
     private String linksite = "Desconhecido";
     private int classificacao;
     @ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.MERGE})
@@ -21,7 +23,7 @@ public class Video {
     // Construtor
     public Video() {};
 
-    public Video(String titulo, String data, String linksite, int classificacao){
+    public Video(String titulo, LocalDate data, String linksite, int classificacao){
         this.titulo = titulo;
         this.data = data;
         this.linksite = linksite;
@@ -42,7 +44,7 @@ public class Video {
         return titulo;
     }
 
-    public String getData() {
+    public LocalDate getData() {
         return data;
     }
     public String getLinksite() {
@@ -63,7 +65,7 @@ public class Video {
         this.titulo = titulo;
     }
 
-    public void setData(String data) {
+    public void setData(LocalDate data) {
         this.data = data;
     }
 

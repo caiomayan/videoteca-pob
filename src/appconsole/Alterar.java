@@ -48,6 +48,9 @@ public class Alterar {
     	} catch (NoResultException e) {
     		System.out.println("Não existe nenhum vídeo com o nome especificado.");
     	} catch (Exception e) {
+			if (manager != null && manager.getTransaction().isActive()) {
+				manager.getTransaction().rollback();
+			}
     		System.out.println(e.getMessage());
     	} finally {
             Util.desconectar();

@@ -37,6 +37,9 @@ public class Listar {
 	            System.out.println(video);
 	        }
 	    } catch (Exception e) {
+			if (manager != null && manager.getTransaction().isActive()) {
+				manager.getTransaction().rollback();
+			}
 	    	System.out.println(e.getMessage());
 	    } finally {
 			Util.desconectar();

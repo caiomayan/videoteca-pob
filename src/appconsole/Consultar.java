@@ -17,12 +17,12 @@ public class Consultar {
 	        Util.conectar();
 	        manager = Util.getManager();
 	
-	        // 1ª consulta - - Quais os vídeos de classificação X?
+	        // 1ª consulta - - Quais os vídeos de X?
 	
 	        // Declaração da variável X de consulta a ser restringida
 	        int x = 4;
 	
-	        String textoConsulta1 = "__________ 1ª consulta __________\n- Quais os vídeos de classificação " + x + " estrelas?";
+	        String textoConsulta1 = "__________ 1ª consulta __________\n- Quais os vídeos de " + x + " estrelas?";
 	
 	        System.out.println(textoConsulta1);
 	
@@ -79,6 +79,9 @@ public class Consultar {
 	
 	        // Fim
     	} catch (Exception e) {
+			if (manager != null && manager.getTransaction().isActive()) {
+				manager.getTransaction().rollback();
+			}
     		System.out.println(e.getMessage());
     	} finally {
             Util.desconectar();

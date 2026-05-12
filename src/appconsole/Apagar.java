@@ -38,6 +38,9 @@ public class Apagar {
     	} catch (NoResultException e) {
     		System.out.println("O vídeo a ser apagado não existe.");
     	} catch (Exception e) {
+			if (manager != null && manager.getTransaction().isActive()) {
+				manager.getTransaction().rollback();
+			}
     		System.out.println(e.getMessage());
     	} finally {
             Util.desconectar();
