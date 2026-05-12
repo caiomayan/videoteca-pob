@@ -1,139 +1,5 @@
-2026-05-12 14:57:34 [main] WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        g1_0.id,
-        g1_0.nome 
-    from
-        genero20242370036 g1_0
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [1]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [6]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [7]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lv1_0.listaGeneros_id,
-        lv1_1.id,
-        lv1_1.classificacao,
-        lv1_1.data,
-        lv1_1.linksite,
-        lv1_1.titulo 
-    from
-        video20242370036_genero20242370036 lv1_0 
-    join
-        video20242370036 lv1_1 
-            on lv1_1.id=lv1_0.listaVideos_id 
-    where
-        lv1_0.listaGeneros_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [8]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:08 [main] WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         v1_0.id,
         v1_0.classificacao,
@@ -141,8 +7,11 @@
         v1_0.linksite,
         v1_0.titulo 
     from
-        video20242370036 v1_0
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+        video20242370036 v1_0 
+    where
+        v1_0.classificacao=?
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -154,8 +23,8 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [1]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -167,8 +36,8 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [2]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -180,8 +49,8 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [3]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -193,8 +62,8 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [7]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -206,8 +75,26 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [5]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [9]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
+    select
+        v1_0.id,
+        v1_0.classificacao,
+        v1_0.data,
+        v1_0.linksite,
+        v1_0.titulo 
+    from
+        video20242370036 v1_0 
+    join
+        video20242370036_genero20242370036 lg1_0 
+            on v1_0.id=lg1_0.listaVideos_id 
+    join
+        genero20242370036 lg1_1 
+            on lg1_1.id=lg1_0.listaGeneros_id 
+    where
+        lg1_1.nome=?
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:VARCHAR) <- [Ação]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -219,8 +106,8 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [6]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [8]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
         lg1_0.listaVideos_id,
         lg1_1.id,
@@ -232,82 +119,41 @@
             on lg1_1.id=lg1_0.listaGeneros_id 
     where
         lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [7]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [10]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
-        lg1_0.listaVideos_id,
-        lg1_1.id,
-        lg1_1.nome 
+        g1_0.id,
+        g1_0.nome 
     from
-        video20242370036_genero20242370036 lg1_0 
+        genero20242370036 g1_0 
     join
-        genero20242370036 lg1_1 
-            on lg1_1.id=lg1_0.listaGeneros_id 
+        video20242370036_genero20242370036 lv1_0 
+            on g1_0.id=lv1_0.listaGeneros_id 
+    join
+        video20242370036 lv1_1 
+            on lv1_1.id=lv1_0.listaVideos_id 
     where
-        lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [8]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
+        lv1_1.classificacao=? 
+    group by
+        g1_0.id,
+        g1_0.nome 
+    having
+        count(lv1_0.listaVideos_id)>?
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [4]
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (2:BIGINT) <- [2]
+2026-05-12 16:38:10 [main] DEBUG SQL - 
     select
-        lg1_0.listaVideos_id,
-        lg1_1.id,
-        lg1_1.nome 
+        lv1_0.listaGeneros_id,
+        lv1_1.id,
+        lv1_1.classificacao,
+        lv1_1.data,
+        lv1_1.linksite,
+        lv1_1.titulo 
     from
-        video20242370036_genero20242370036 lg1_0 
+        video20242370036_genero20242370036 lv1_0 
     join
-        genero20242370036 lg1_1 
-            on lg1_1.id=lg1_0.listaGeneros_id 
+        video20242370036 lv1_1 
+            on lv1_1.id=lv1_0.listaVideos_id 
     where
-        lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [9]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lg1_0.listaVideos_id,
-        lg1_1.id,
-        lg1_1.nome 
-    from
-        video20242370036_genero20242370036 lg1_0 
-    join
-        genero20242370036 lg1_1 
-            on lg1_1.id=lg1_0.listaGeneros_id 
-    where
-        lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [10]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lg1_0.listaVideos_id,
-        lg1_1.id,
-        lg1_1.nome 
-    from
-        video20242370036_genero20242370036 lg1_0 
-    join
-        genero20242370036 lg1_1 
-            on lg1_1.id=lg1_0.listaGeneros_id 
-    where
-        lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [11]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lg1_0.listaVideos_id,
-        lg1_1.id,
-        lg1_1.nome 
-    from
-        video20242370036_genero20242370036 lg1_0 
-    join
-        genero20242370036 lg1_1 
-            on lg1_1.id=lg1_0.listaGeneros_id 
-    where
-        lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [12]
-2026-05-12 14:57:35 [main] DEBUG SQL - 
-    select
-        lg1_0.listaVideos_id,
-        lg1_1.id,
-        lg1_1.nome 
-    from
-        video20242370036_genero20242370036 lg1_0 
-    join
-        genero20242370036 lg1_1 
-            on lg1_1.id=lg1_0.listaGeneros_id 
-    where
-        lg1_0.listaVideos_id=?
-2026-05-12 14:57:35 [main] TRACE bind - binding parameter (1:INTEGER) <- [13]
+        lv1_0.listaGeneros_id=?
+2026-05-12 16:38:10 [main] TRACE bind - binding parameter (1:INTEGER) <- [6]

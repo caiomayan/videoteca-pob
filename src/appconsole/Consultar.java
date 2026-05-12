@@ -68,7 +68,7 @@ public class Consultar {
 	
 	        TypedQuery<Genero> q3 = manager.createQuery("select g from Genero g join g.listaVideos v where v.classificacao = :z group by g.id, g.nome having count(v) > :n", Genero.class);
 	        q3.setParameter("z", z);
-	        q3.setParameter("n", (long) n);
+	        q3.setParameter("n", n);
 	        List<Genero> generos = q3.getResultList();
 	        if (generos.isEmpty()) {
 	            System.out.println("Nenhum gênero encontrado");
